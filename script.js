@@ -39,8 +39,8 @@ function updateCountdown() {
 // show preloader first
 setTimeout(() => {
   loading.remove();
-  // countdown.setAttribute("style", "display: flex;");
-  countdown.style.display = 'flex';
+  countdown.setAttribute("style", "display: flex !important;");
+  // countdown.style.display = 'flex !important'; 
 }, 1000);
 
 // run every second
