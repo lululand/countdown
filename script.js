@@ -8,7 +8,7 @@ const loading = document.getElementById('loading');
 
 const currentYear = new Date().getFullYear();
 
-const inaugurationDay = new Date(`January 20 ${currentYear + 1} 00:00:00`);
+const inaugurationDay = new Date(`January 20 ${currentYear} 00:00:00`);
 // let interval;
 
 // update countdown
